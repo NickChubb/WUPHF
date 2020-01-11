@@ -1,3 +1,36 @@
 body{
   font-family: arial, sans-serif;
+  height: 100%;
+  background: #EAD6FF;
+}
+#larger_container{
+  width: 100%;
+  position: absolute;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#login_container{
+  background: #AD5BFF;
+  padding: 20px;
+  width: 60%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 3px 3px 3px #9932FF;
+  border-radius: 2px;
+}
+#login_container input{
+  padding:5px;
+  margin:5px;
+}
+#login_button{
+  
 }
