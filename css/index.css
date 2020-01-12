@@ -32,5 +32,11 @@ body{
   margin:5px;
 }
 #login_button{
-  
+  background: #CC99FF;
+}
+#login_button:hover{
+  background: #C993FF;
+}
+#login_button:active{
+  background: #C185FE;
 }
