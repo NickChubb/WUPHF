@@ -5,8 +5,10 @@ import wuphf as w
 email = "ryanstartedthefire69@gmail.com"
 password = "1Agas3rs"
 name = "jordan"
-msg = "HIHIHIHIHIHIHI"
+msg = "Sup"
+phone = "17785499550"
+sender = "jordan"
 
-w.sendMsg(email, password, name, msg)
+#w.sendMsg(email, password, name, msg)
 
-#w.sendSms()
+w.sendSms(email, password, phone, msg, sender) 
