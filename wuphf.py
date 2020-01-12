@@ -18,7 +18,7 @@ def sendMsg(email, password, name, msg):
 
 	client.logout()
 
-def sendSms(email, password, phone, sender, platform):
+def sendSms(email, password, phone, platform):
 	class EchoBot(Client):
 	    def onMessage(self, author_id, message_object, thread_id, thread_type, **kwargs):
 	        self.markAsDelivered(thread_id, message_object.uid)
@@ -34,10 +34,10 @@ def sendSms(email, password, phone, sender, platform):
 
 	        msg = message_object.text
 	        #print(self.fetchAllUsersFromThreads([thread_id]))
-	        print(type(author_id))
-	        print(author_id)
-	        print(type(thread_type))
-	        obj = {'msg': msg, 'platform': platform, 'author': author_id}
+	        #print(type(author_id))
+	        #print(author_id)
+	        #print(type(thread_type))
+	        obj = {'msg': msg, 'platform': platform, 'author': author_id, 'phone': phone}
 
 	        requests.post(url, data=obj)
 
