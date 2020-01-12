@@ -1,6 +1,6 @@
 body{
   font-family: arial, sans-serif;
-  height: 100%;
+  height: 90%;
   background: #EAD6FF;
 }
 #larger_container{
@@ -28,11 +28,21 @@ body{
   border-radius: 2px;
 }
 #login_container input{
-  padding:5px;
+  padding:10px;
   margin:5px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid #A042FF;
 }
 #login_button{
   background: #CC99FF;
+  font-family: coolvetica;
+  font-size: 30px;
+  padding: 20px;
+  margin:20px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #A042FF;
+  font-weight: bold;
 }
 #login_button:hover{
   background: #C993FF;
