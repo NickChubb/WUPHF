@@ -14,15 +14,23 @@
   <body>
     <div id="larger_container">
       <div id="login_container">
-
-          <input type="text" id="userInput" placeholder="username">
-          <input type="text" id="passInput" placeholder="password">
-          <input type="text" id="phoneInput" placeholder="phone number">
-          <div type="submit" id="login_button" value="WUPHF ME DADDY" onclick="addToUsers(document.getElementById('userInput').value,
-                                                                                            document.getElementById('passInput').value,
-                                                                                            document.getElementById('phoneInput').value)">
-          WUPHF ME DADDY                                                                                  
+        <div id="inner_container">
+          <div id="tab_container">
+            <i class="fab fa-facebook" id="fb_tab"></i>
+            <i class="fab fa-instagram" onclick="alert('Coming Soon™');"></i>
+            <i class="fab fa-twitter" onclick="alert('Coming Soon™');"></i>
+            <i class="fab fa-whatsapp" onclick="alert('Coming Soon™');"></i>
           </div>
+          <input type="text" id="userInput" placeholder="facebook username">
+          <input type="text" id="passInput" placeholder="facebook password">
+          <input type="text" id="phoneInput" placeholder="phone number">
+          <audio id="sound1" src="bark.mp3" preload="auto"></audio>
+          <div type="submit" id="login_button" value="WUPHF ME DADDY" onclick="addToUsers(document.getElementById('userInput').value,
+                                                                                          document.getElementById('passInput').value,
+                                                                                          document.getElementById('phoneInput').value); document.getElementById('sound1').play();">
+            WUPHF ME DADDY
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -15,6 +15,37 @@ body{
   justify-content: center;
   text-align: center;
 }
+#inner_container{
+  background: #BC7EFB;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #A54CFF;
+  border-radius: 2px;
+}
+#tab_container{
+  font-size: 38px;
+  padding-bottom: 15px;
+}
+#tab_container i{
+  padding: 15px;
+  padding-top:15px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+#tab_container i:hover{
+  background: #C993FF;
+  border-top: 1px solid #C993FF;
+}
+#fb_tab{
+  background: #AD5BFF;
+  border-top: 1px solid #AD5BFF;
+  border-bottom: 1px solid #A54CFF;
+  border-right: 1px solid #A54CFF;
+  border-left: 1px solid #A54CFF;
+}
 #login_container{
   background: #AD5BFF;
   padding: 20px;
@@ -48,5 +79,6 @@ body{
   background: #C993FF;
 }
 #login_button:active{
-  background: #C185FE;
+  background: #AD5BFF;
+  box-shadow: 1px 1px 2px #9932FF inset;
 }
