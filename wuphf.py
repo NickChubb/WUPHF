@@ -17,4 +17,5 @@ def sendMsg(email, password, name, msg):
 
 	client.logout()
 
-def sendSmS(email, password, phone, msg, sender)
+def sendSmS(email, password, phone, msg, sender):
+	print("e")
