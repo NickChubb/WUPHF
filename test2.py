@@ -8,7 +8,8 @@ name = "jordan"
 msg = "Sup"
 phone = "17785499550"
 sender = "jordan"
+platform = "Facebook"
 
 #w.sendMsg(email, password, name, msg)
 
-w.sendSms(email, password, phone, msg, sender) 
+w.sendSms(email, password, phone, sender, platform) 
